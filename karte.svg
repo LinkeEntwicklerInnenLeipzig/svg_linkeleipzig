@@ -54,6 +54,7 @@
       polyline:hover, path:hover, circle:hover {
       stroke: #DF0404;
       fill: #DF0404;
+      cursor: pointer;
       }
     </style>
 
