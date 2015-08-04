@@ -44,11 +44,11 @@
 
     <style>
       polyline, path, circle {
-        stroke: #666;
+        stroke: #FFF;
         stroke-width: 1;
         stroke-linecap: round;
         stroke-linejoin: bevel;
-        fill: #FFF;
+        fill: #CCC;
       }
 
       polyline:hover, path:hover, circle:hover {
