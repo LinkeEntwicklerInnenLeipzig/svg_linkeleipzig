@@ -151,19 +151,22 @@
 
      <script>
        var urls = {
-        BORAT: ['BO Reudnitz-Anger-Crottendorf-Thonberg' ,'/struktur/ortsverbaende/bo_rat/'],
-        WEST: ['',''],
-        LINXXNET: ['linXXnet','http://www.linke-bueros.de/linxxnet-leipzig.html'],
-        BRAUSTR: ['Geschäftsstelle/Stadtvorstand','/struktur/stadtvorstand/'],
-        SUEDWEST: ['',''],
-        SUEDOST: ['',''],
-        SUED: ['',''],
-        OST: ['',''],
-        NORDWEST: ['',''],
-        NORDOST: ['',''],
-        NORD: ['',''],
-        MITTE: ['',''],
-        ALTWEST: ['','']
+        BORAT: ['BO Reudnitz-Anger-Crottendorf-Thonberg' ,'/partei/vor-ort/bo-rat/'],
+        LINXXNET: ['linXXnet','/partei/vor-ort/linke-bueros/linxxnet/'],
+        BRAUSTR: ['Geschäftsstelle im Liebknecht-Haus','/partei/vor-ort/linke-bueros/geschaeftstelle-die-linke-leipzig/'],
+        WEST: ['Stadtbezirksverband West','/partei/vor-ort/stadtbezirksverband-west/'],
+        SODANN: ['Wahlkreis-Kulturbüro','/partei/vor-ort/linke-bueros/wahlkreis-kulturbuero/'],
+        INTERIM: ['INTERIM Wahlkreis- und Projektebüro','/partei/vor-ort/linke-bueros/wahlkreisbuero-gruenau/'],
+        GRUENAU: ['Wahlkreisbüro Grünau','/partei/vor-ort/linke-bueros/wahlkreisbuero-gruenau/'],
+        SUEDWEST: ['Stadtbezirksverband Südwest','/partei/vor-ort/stadtbezirksverband-suedwest/'],
+        SUEDOST: ['Stadtbezirksverband Südost','/partei/vor-ort/stadtbezirksverband-suedost/'],
+        SUED: ['Stadtbezirksverband Süd','/partei/vor-ort/stadtbezirksverband-sued/'],
+        OST: ['Stadtbezirksverband Ost','/partei/vor-ort/stadtbezirksverband-ost/'],
+        NORDWEST: ['Stadtbezirksverband Nordwest','/partei/vor-ort/stadtbezirksverband-nordwest/'],
+        NORDOST: ['Stadtbezirksverband Nordost','/partei/vor-ort/stadtbezirksverband-nordost/'],
+        NORD: ['Stadtbezirksverband Nord','/partei/vor-ort/stadtbezirksverband-nord/'],
+        MITTE: ['Stadtbezirksverband Mitte','/partei/vor-ort/stadtbezirksverband-mitte/'],
+        ALTWEST: ['Stadtbezirksverband Altwest','/partei/vor-ort/stadtbezirksverband-alt-west/']
        },
        textnode = document.getElementById('popup');
 
