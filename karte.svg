@@ -63,7 +63,7 @@
         transform: scale(1.02);
         filter:url(#dropshadow);
       }
-      circle:hover {transform: scale(1.8);}
+      circle:hover { -webkit-transform: scale(1.8); }
     </style>
 
     <filter id="dropshadow" height="130%">
