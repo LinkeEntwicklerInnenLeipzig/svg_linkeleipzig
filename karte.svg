@@ -186,19 +186,16 @@
        },
        textnode = document.getElementById('popup');
 
-       var totop = function(ar) {
-          for (var id in ar) {
-            var d;
-            if (ar[id].parentNode) d = ar[id]
-            else d = document.getElementById(ar[id]);
-            d.parentNode.appendChild(d);
-          }
+       var totop = function(el) {
+        if (el.tagName == "circle" || el.nextElementSibling.tagName == "circle") return;
+        var limit = el.parentNode.getElementsByTagName("circle")[0];
+        el.parentNode.insertBefore(el, limit);
        },
        mousein = function(ev) {
         var id = ev.target.id,
         text = urls[id][0];
         textnode.textContent = text;
-        totop([ev.target, "GRUENAU", "INTERIM", "SODANN", "LINXXNET", "BRAUSTR"]);
+        totop(ev.target);
        },
        mouseout = function(ev) {
         var id = ev.target.id,
