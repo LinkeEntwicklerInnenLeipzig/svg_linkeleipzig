@@ -145,6 +145,12 @@
      cx="105.0"
      id="GRUENAU"
      />
+    <circle
+     r="5"
+     cy="350.0"
+     cx="255.0"
+     id="RATHAUS"
+     />
 
      <text xmlns="http://www.w3.org/2000/svg" id="popup" x="0" y="60" font-size="14" fill="#000">
 
@@ -169,7 +175,8 @@
         NORDOST: ['Stadtbezirksverband Nordost','/partei/vor-ort/stadtbezirksverband-nordost/'],
         NORD: ['Stadtbezirksverband Nord','/partei/vor-ort/stadtbezirksverband-nord/'],
         MITTE: ['Stadtbezirksverband Mitte','/partei/vor-ort/stadtbezirksverband-mitte/'],
-        ALTWEST: ['Stadtbezirksverband Altwest','/partei/vor-ort/stadtbezirksverband-alt-west/']
+        ALTWEST: ['Stadtbezirksverband Altwest','/partei/vor-ort/stadtbezirksverband-alt-west/'],
+         RATHAUS: ['Fraktionsgeschäftsstelle im Rathaus','/partei/vor-ort/linke-bueros/fraktionsgeschaeftsstelle-im-rathaus/']
        },
        textnode = document.getElementById('popup');
 
